@@ -11,7 +11,7 @@ Gemini YouTube Video Summarizer is a Streamlit web application that utilizes the
 ## Getting Started
 1. **Clone the repository:** 
     ```
-    git clone https://github.com/your_username/your_repository.git
+    git clone https://github.com/ugundhar/Gemini-Youtube-Video-Summarizer.git
     ```
 2. **Install dependencies:** 
     ```
