@@ -1,18 +1,17 @@
-# ATS Resume Expert
+# Gemini YouTube Video Summarizer
 
-![Project Image](project_image.png)
 
-ATS Resume Expert is a Streamlit web application that leverages Google's generative AI model to analyze resumes. The application provides valuable insights for Human Resource Managers, experts, and ATS scanners. It offers functionalities such as reviewing resumes against job descriptions, suggesting skill improvements, and calculating a percentage match.
+Gemini YouTube Video Summarizer is a Streamlit web application that utilizes the Gemini API and the YouTube Transcription API to generate concise summaries of YouTube video content. It provides an easy-to-use interface for extracting and summarizing the key points of YouTube videos.
 
 ## Features
-- **Tell Me About the Resume:** Analyzes the resume against a provided job description and provides an evaluation.
-- **How Can I Improve My Skills:** For HR experts with extensive experience, the app offers advice on skill improvement based on resume analysis.
-- **Percentage Match:** Calculates the percentage match between the resume and the job description for skilled ATS scanners.
+- **Video Summarization:** Generate concise summaries of YouTube videos based on their transcripts.
+- **Efficient Content Consumption:** Extract important points from videos for quick understanding.
+- **Knowledge Extraction:** Facilitate efficient extraction of information from videos.
 
 ## Getting Started
 1. **Clone the repository:** 
     ```
-    git clone https://github.com/ugundhar/ATS-Resume-Expert.git
+    git clone https://github.com/your_username/your_repository.git
     ```
 2. **Install dependencies:** 
     ```
@@ -20,13 +19,19 @@ ATS Resume Expert is a Streamlit web application that leverages Google's generat
     ```
 3. **Run the Streamlit app:** 
     ```
-    streamlit run app.py
+    streamlit run video_summarizer_app.py
     ```
 
 ## Usage
-- Enter the job description in the provided text area.
-- Upload a resume (PDF) using the file uploader.
-- Click on the corresponding button to get insights based on your role (Tell Me About the Resume, How Can I Improve My Skills, Percentage Match).
+1. Enter the YouTube video link in the provided text input.
+2. Click the "Get Video Summary" button to generate a summary of the video.
+3. View the summarized content and extract key points from the video.
+
+## Dependencies
+- [youtube_transcript_api](https://github.com/jdepoix/youtube-transcript-api)
+- [streamlit](https://github.com/streamlit/streamlit)
+- [google-generativeai](https://github.com/google-research/google-research/tree/master/gemini/generativeai)
+- [python-dotenv](https://github.com/theskumar/python-dotenv)
 
 ## Contributing
 If you'd like to contribute to the project, feel free to submit a pull request.
